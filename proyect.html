@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
-    <title>Document</title>
+    <title>Proyectos</title>
 </head>
 <body>
     <header>
@@ -21,7 +21,7 @@
                         <li>Inicio</li>
                     </a>
                     <a href="proyect.html">
-                        <li>Proyectos</li>
+                        <li class="active">Proyectos</li>
                     </a>
                     <a href="contact.html" class="btn ml-2">
                         Contactar
@@ -37,7 +37,7 @@
                         <li>Inicio</li>
                     </a>
                     <a href="proyect.html">
-                        <li>Proyectos</li>
+                        <li class="active">Proyectos</li>
                     </a>
                     <a href="contact.html" class="btn">
                         Contactar
@@ -46,64 +46,44 @@
             </nav>
         </div>
     </header>
-    <main >
+    <main>
         <section class="banner">
-            <img src="img/contactar2.jpg" class="fitBg">
+            <img src="img/proyect.jpg" class="fitBg">
             <div class="content">
-                <h2>Contactar</h2>
-                <p>Gracias por llegar a esta sección. Espero que mi portafolio haya sido de tu agrado. Contáctate conmigo a travel de un email, por número telefonico o rellenando el formulario.</p>
-                <a href="#contactForm" class="btn2">Ver más</a>
+                <h2>Mis Proyectos</h2>
+                <p>En esta sección mostraré algunos proyectos de manera cronológica, se puede observar como en cada proyecto se implementó más recrusos.</p>
+                <a href="#proyect" class="btn2">Ver más</a>
             </div>
         </section>
-        <section class="contact">
-            <div class="container">
-                <div class="contactInfo">
-                    <div class="box">
-                        <div class="icon"><i class="bi bi-geo-alt"></i></div>
-                        <div class="text">
-                            <h3>Dirección:</h3>
-                            <p>132 Av. Tomas Valle,<br>San Martin de Porres, Lima,<br>15202</p>
-                        </div>
+        <section class="proyect" id="proyect">
+            <div class="content">
+                <h2 class="titleText">Proyectos de Practicas Pre-Profesionales</h2>
+                <p class="text">Estos son algunos de los proyectos que Pre - Profesionales que se logró hacer. Durante el proceso de toda mi carrera hubo de una mejora constante, en la tarjeta se puede observar que en cada proyecto se implementó más tecnología y servicios.</p>
+            </div>
+            <div class="proyectList">
+                <div class="box">
+                    <div class="imgBx">
+                        <img src="img/proyecto1.png" class="fitBg">
                     </div>
-                    <div class="box">
-                        <div class="icon"><i class="bi bi-telephone"></i></i></div>
-                        <div class="text">
-                            <h3>Teléfono:</h3>
-                            <p>+51 940333910</p>
-                        </div>
-                    </div>
-                    <div class="box">
-                        <div class="icon"><i class="bi bi-envelope"></i></div>
-                        <div class="text">
-                            <h3>Email:</h3>
-                            <p>m75437010@certus.edu.pe</p>
-                        </div>
+                    <div class="content">
+                        <h3>AppTravelPerú<br><span>Flutter, Dart, Flask, PostgreSQL y GCP</span></h3>
                     </div>
                 </div>
-                <div class="contactForm" id="contactForm">
-                    <form id="form">
-                        <h2>Enviar Mensaje</h2>
-                        <div class="inputBox">
-                            <input type="text" id="name" required="required">
-                            <span>Nombre Completo:</span>
-                        </div>
-                        <div class="inputBox">
-                            <input type="email" id="email" required="required">
-                            <span>Email:</span>
-                        </div>
-                        <div class="inputBox">
-                            <input type="text" id="asunto" required="required">
-                            <span>Asunto:</span>
-                        </div>
-                        <div class="inputBox">
-                            <textarea  id="mensaje" required="required"></textarea>
-                            <span>Mensaje:</span>
-                        </div>
-                        <div class="inputBox">
-                            <p id="success" style="display: none;">¡Mensaje Enviado Correctamente!</p>
-                            <input type="submit" value="Send">
-                        </div>
-                    </form>
+                <div class="box">
+                    <div class="imgBx">
+                        <img src="img/proyecto2.png" class="fitBg">
+                    </div>
+                    <div class="content">
+                        <h3>Página de Cine - CRUD<br><span>HTML, CSS, JS, Node y MongoDB</span></h3>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="imgBx">
+                        <img src="img/proyecto3.png" class="fitBg">
+                    </div>
+                    <div class="content">
+                        <h3>Página de Vacunatón<br><span>HTML, CSS y JavaScript</span></h3>
+                    </div>
                 </div>
             </div>
         </section>
